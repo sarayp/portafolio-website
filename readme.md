@@ -1,3 +1,3 @@
 # Portafilio website
 
-A simple app with a project of protafolio website.
+A simple project of portafolio website.
