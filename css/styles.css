@@ -1,0 +1,145 @@
+.container {
+	font-family: Roboto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	margin: 48px 0;
+}
+/*
+ *
+ * Header
+ * 
+ */
+.header {
+	border-bottom: solid #7d97ad 3px;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	width: 70%;
+	margin-left: 110px;
+}
+
+.udacity-logo {
+	width: 64px;
+}
+
+.header-title {
+	margin: 0 0 8px 24px;
+	font-size: 38px;
+	font-weight: 100;
+	text-transform: uppercase;
+}
+
+.header-subtitle {
+	font-size: 16px;
+	text-transform: uppercase;
+	text-align: end;
+	font-weight: 500;
+	margin: 0 0 24px 0;
+}
+/*
+ *
+ * Main
+ * 
+ */
+.main-content {
+	display: flex;
+	justify-content: center;
+}
+/*
+ *
+ * Sidebar
+ * 
+ */
+.sidebar {
+	margin-right: 48px;
+}
+
+.item {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: flex-end;
+}
+
+.square {
+	width: 50px;
+	height: 50px;
+	background-color: #ff5722;
+}
+
+.sidebar-text {
+	margin-top: 4px;
+	color: #2d3c49;
+	font-weight: 200;
+	font-size: 14px;
+}
+
+.blue-color {
+	background-color: #2196f3;
+}
+
+.yellow-color {
+	background-color: #ffe100;
+}
+/*
+ *
+ * Content
+ * 
+ */
+.content-container {
+	width: 70%;
+}
+
+.hero {
+	width: 100%;
+	margin: 24px 0;
+}
+/*
+ *
+ * Feature
+ * 
+ */
+.feature-title {
+	font-weight: 400;
+	font-size: 24px;
+	color: #7d97ad;
+	margin: 0 0 16px 8px;
+}
+
+.feature-container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.feature {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 30%;
+}
+
+.feature-image {
+	width: 100%;
+	margin-bottom: 8px;
+}
+
+.feature-text {
+	font-size: 24px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #2d3c49;
+	font-weight: 400;
+	margin: 0;
+}
+
+.feature-link {
+	font-size: 12px;
+	font-weight: 200;
+	color:#2d3c49;
+	text-overflow: ellipsis;
+	text-align: center;
+	overflow: hidden;
+	width: 100%;
+}
